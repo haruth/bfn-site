@@ -71,12 +71,16 @@
     });
   });
 
-  const leavesSection = document.querySelector(".skin");
-  const leaves = document.querySelectorAll(".leaf");
+  const leaves = [...document.querySelectorAll(".leaf")].map((element) => ({
+    element,
+    section: element.closest("section"),
+    depth: parseFloat(element.style.getPropertyValue("--depth")) || 1,
+    scroll: 0,
+  }));
 
-  if (leavesSection && leaves.length && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  if (leaves.length && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     const pointer = { x: 0, y: 0 };
-    const current = { x: 0, y: 0, scroll: 0 };
+    const current = { x: 0, y: 0 };
 
     window.addEventListener("mousemove", (event) => {
       pointer.x = event.clientX / window.innerWidth - 0.5;
@@ -84,18 +88,18 @@
     });
 
     const animateLeaves = () => {
-      const rect = leavesSection.getBoundingClientRect();
-      const scroll = (rect.top + rect.height / 2 - window.innerHeight / 2) / window.innerHeight;
-
       current.x += (pointer.x - current.x) * 0.06;
       current.y += (pointer.y - current.y) * 0.06;
-      current.scroll += (scroll - current.scroll) * 0.1;
 
       leaves.forEach((leaf) => {
-        const depth = parseFloat(leaf.style.getPropertyValue("--depth")) || 1;
+        const rect = leaf.section.getBoundingClientRect();
+        const scroll = (rect.top + rect.height / 2 - window.innerHeight / 2) / window.innerHeight;
+        leaf.scroll += (scroll - leaf.scroll) * 0.1;
+
+        const { depth } = leaf;
         const x = current.x * 60 * depth;
-        const y = current.y * 60 * depth + current.scroll * 120 * depth;
-        leaf.style.transform = `translate3d(${x}px, ${y}px, 0) rotate(${current.x * 10 * depth}deg)`;
+        const y = current.y * 60 * depth + leaf.scroll * 120 * depth;
+        leaf.element.style.transform = `translate3d(${x}px, ${y}px, 0) rotate(${current.x * 10 * depth}deg)`;
       });
 
       requestAnimationFrame(animateLeaves);

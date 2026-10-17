@@ -589,7 +589,7 @@ body.is-menu-open > .header {
 .skin__line--outline {
   z-index: 1;
   color: transparent;
-  -webkit-text-stroke: 1px var(--color-white);
+  -webkit-text-stroke: 0.5px var(--color-white);
   pointer-events: none;
 }
 
@@ -723,6 +723,139 @@ body.is-menu-open > .header {
   to {
     transform: translateY(12px) rotate(4deg);
   }
+}
+
+/* ---------- Блок «Корнеотерапия» ---------- */
+
+.cornea {
+  position: relative;
+  height: calc(1208 * var(--u));
+}
+
+.cornea__stage {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.cornea__title {
+  position: absolute;
+  top: calc(161 * var(--u));
+  left: calc(147 * var(--u));
+  margin: 0;
+  font-size: calc(140 * var(--u));
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--color-dark);
+}
+
+.cornea__video {
+  position: absolute;
+  top: calc(246 * var(--u));
+  left: calc(630 * var(--u));
+  width: calc(660 * var(--u));
+  height: calc(675 * var(--u));
+  overflow: hidden;
+  background: var(--color-dark);
+}
+
+/* обводка в Figma снаружи букв: центральный штрих 2px, внутреннюю половину перекрывает заливка цвета плашки */
+.cornea__title--outline {
+  top: calc(-85 * var(--u));
+  left: calc(-483 * var(--u));
+  -webkit-text-stroke: 2px var(--color-white);
+  paint-order: stroke fill;
+}
+
+.cornea__play {
+  position: absolute;
+  top: calc(285 * var(--u));
+  left: calc(252 * var(--u));
+  width: calc(155 * var(--u));
+  height: calc(155 * var(--u));
+  border-radius: 50%;
+  pointer-events: auto;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.cornea__play img {
+  width: 100%;
+  height: 100%;
+}
+
+.cornea__play:hover {
+  transform: scale(1.1);
+}
+
+.cornea__script {
+  position: absolute;
+  top: calc(221 * var(--u));
+  left: calc(715 * var(--u));
+  font-family: var(--font-script);
+  font-size: calc(100 * var(--u));
+  line-height: normal;
+  white-space: nowrap;
+  color: var(--color-gold);
+  pointer-events: none;
+}
+
+.cornea__text,
+.cornea__note {
+  position: absolute;
+  font-size: calc(21 * var(--u));
+  line-height: 1.4;
+}
+
+.cornea__text {
+  top: calc(396 * var(--u));
+  left: calc(160 * var(--u));
+  width: calc(416 * var(--u));
+}
+
+.cornea__text p + p {
+  margin-top: calc(15 * var(--u));
+}
+
+.cornea__note {
+  top: calc(775 * var(--u));
+  left: calc(1325 * var(--u));
+  width: calc(435 * var(--u));
+}
+
+.cornea__more {
+  position: absolute;
+  top: calc(849.5 * var(--u));
+  left: calc(160 * var(--u));
+  display: flex;
+  align-items: flex-start;
+  gap: calc(14.5 * var(--u));
+  font-size: calc(21 * var(--u));
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.cornea__more span {
+  margin-top: calc(24.5 * var(--u));
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.cornea__more img {
+  width: calc(71 * var(--u));
+  height: calc(71 * var(--u));
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.cornea__more:hover img {
+  transform: translateX(calc(10 * var(--u)));
+}
+
+.cornea__leaf {
+  z-index: 3;
 }
 
 /* ---------- Анимация появления: fade in up, 2s, 30px ---------- */
