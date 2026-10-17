@@ -173,6 +173,7 @@ body {
   color: var(--color-dark);
   background: var(--color-light);
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
 }
 
 body.is-menu-open {
