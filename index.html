@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BFN — Best of Nature</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__left">
+      <button class="header__menu-btn js-menu-open" type="button" aria-controls="site-menu" aria-expanded="false">
+        <img src="assets/img/icon-burger.svg" width="25" height="15" alt="">
+        <span>Меню</span>
+      </button>
+      <a class="header__link" href="#">Магазин</a>
+    </div>
+
+    <a class="header__logo" href="./" aria-label="BFN — на главную">
+      <img src="assets/img/logo.png" alt="BFN Best of Nature">
+    </a>
+
+    <div class="header__right">
+      <a class="header__phone" href="tel:+79252308525">+7 (925) 230 85 25</a>
+      <a class="header__icon" href="#" aria-label="Избранное">
+        <img src="assets/img/icon-heart.svg" width="37" height="32" alt="">
+      </a>
+      <a class="header__icon" href="#" aria-label="Личный кабинет">
+        <img src="assets/img/icon-user.svg" width="37" height="32" alt="">
+      </a>
+      <a class="header__icon header__icon--cart" href="#" aria-label="Корзина">
+        <img src="assets/img/icon-cart.svg" width="36" height="31" alt="">
+      </a>
+    </div>
+  </header>
+
+  <div class="menu" id="site-menu" aria-hidden="true">
+    <div class="menu__backdrop js-menu-close"></div>
+
+    <div class="menu__sheet">
+      <div class="menu__panel">
+        <nav class="menu__nav" aria-label="Основное меню">
+          <a class="menu__link menu__link--accent" href="#" style="--x: 154; --y: 235; --i: 0">Подобрать уход</a>
+          <a class="menu__link" href="#" style="--x: 383; --y: 330; --i: 1">Корнеотерапия</a>
+          <a class="menu__link" href="#" style="--x: 383; --y: 425; --i: 2">Бренд BFN</a>
+          <a class="menu__link" href="#" style="--x: 383; --y: 520; --i: 3">Наше производство</a>
+          <a class="menu__link" href="#" style="--x: 235; --y: 615; --i: 4">Публикации</a>
+          <a class="menu__link" href="#" style="--x: 383; --y: 710; --i: 5">Доставка и оплата</a>
+
+          <span class="menu__script menu__script--about" aria-hidden="true">о нас</span>
+          <span class="menu__script menu__script--blog" aria-hidden="true">наш блог</span>
+        </nav>
+      </div>
+
+      <div class="header header--dark">
+        <div class="header__left">
+          <button class="header__menu-btn header__menu-btn--active js-menu-close" type="button" aria-label="Закрыть меню">
+            <img src="assets/img/icon-burger-gold.svg" width="25" height="15" alt="">
+            <span>Меню</span>
+          </button>
+          <a class="header__link" href="#">Магазин</a>
+        </div>
+
+        <a class="header__current" href="./">Главная</a>
+
+        <div class="header__right">
+          <a class="header__phone" href="tel:+79252308525">+7 (925) 230 85 25</a>
+          <a class="header__icon" href="#" aria-label="Избранное">
+            <img src="assets/img/icon-heart-dark.svg" width="32" height="29" alt="">
+          </a>
+          <a class="header__icon" href="#" aria-label="Личный кабинет">
+            <img src="assets/img/icon-user-dark.svg" width="29.0323" height="30" alt="">
+          </a>
+          <a class="header__icon header__icon--cart" href="#" aria-label="Корзина">
+            <img src="assets/img/icon-cart-dark.svg" width="36" height="31.0014" alt="">
+          </a>
+        </div>
+      </div>
+
+      <button class="menu__close js-menu-close" type="button" aria-label="Закрыть меню">
+        <img src="assets/img/icon-close.svg" width="287" height="287" alt="">
+      </button>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero">
+      <img class="hero__bg" src="assets/img/hero-bg.png" alt="">
+      <h1 class="hero__title">
+        <span class="hero__script fade-in-up" style="--delay: 0.2s">Best of</span>
+        <span class="hero__nature fade-in-up" style="--delay: 0.5s">Nature</span>
+      </h1>
+      <p class="hero__text fade-in-up" style="--delay: 0.8s">
+        Симбиоз корнеотерапевтических разработок<br>
+        и натуральных природных ингредиентов
+      </p>
+      <button class="hero__play fade-in-up" style="--delay: 1.1s" type="button" aria-label="Смотреть видео">
+        <img src="assets/img/icon-play.svg" width="80" height="80" alt="">
+      </button>
+    </section>
+
+    <section class="skin">
+      <h2 class="skin__title">
+        <span class="skin__script reveal">впервые косметика</span>
+        <span class="skin__line reveal" style="--x: 147; --y: 425; --delay: 0.15s">Повторяет</span>
+        <span class="skin__line reveal" style="--x: 415; --y: 558; --delay: 0.3s">структуру</span>
+        <span class="skin__line reveal" style="--x: 415; --y: 690; --delay: 0.45s">кожи</span>
+      </h2>
+
+      <article class="skin-card reveal" style="--x: 883; --y: 630; --delay: 0.2s">
+        <img class="skin-card__img skin-card__img--mask" src="assets/img/skin-mask.jpg" alt="Нанесение маски BFN">
+        <span class="skin__line skin__line--outline" style="--x: -468; --y: -72" aria-hidden="true">структуру</span>
+        <span class="skin__line skin__line--outline" style="--x: -468; --y: 60" aria-hidden="true">кожи</span>
+        <p class="skin-card__text"><span>Комбинация 100% натуральных природных ингредиентов, нано-технологий и уникальной ламеллярной DMS основы позволяет корнеотерапевтическим средствам BFN решить любые проблемы с кожей.</span></p>
+        <button class="skin-card__toggle" type="button" aria-expanded="false" aria-label="Подробнее">
+          <img src="assets/img/icon-plus.svg" width="101" height="101" alt="">
+        </button>
+      </article>
+
+      <article class="skin-card reveal" style="--x: 428; --y: 775; --delay: 0.35s">
+        <img class="skin-card__img" src="assets/img/skin-products.jpg" alt="Средства BFN">
+        <span class="skin__line skin__line--outline" style="--x: -13; --y: -217" aria-hidden="true">структуру</span>
+        <span class="skin__line skin__line--outline" style="--x: -13; --y: -85" aria-hidden="true">кожи</span>
+        <p class="skin-card__text"><span>Богатый состав и максимальные дозировки самых дорогих и высококачественных компонентов делают наши средства супер эффективными.</span></p>
+        <button class="skin-card__toggle" type="button" aria-expanded="false" aria-label="Подробнее">
+          <img src="assets/img/icon-plus.svg" width="101" height="101" alt="">
+        </button>
+      </article>
+
+      <article class="skin-card reveal" style="--x: 1337; --y: 775; --delay: 0.5s">
+        <img class="skin-card__img" src="assets/img/skin-leaves.jpg" alt="Крем BFN в листьях">
+        <p class="skin-card__text"><span>Мы не используем эмульгаторы, красители, отдушки, силиконы и сильнодействующие консерванты, поэтому наши средства хранятся в холодильнике и имеют природный аромат.</span></p>
+        <button class="skin-card__toggle" type="button" aria-expanded="false" aria-label="Подробнее">
+          <img src="assets/img/icon-plus.svg" width="101" height="101" alt="">
+        </button>
+      </article>
+
+      <article class="skin-card reveal" style="--x: 883; --y: 1085; --delay: 0.65s">
+        <img class="skin-card__img" src="assets/img/skin-jar.jpg" alt="Баночка крема BFN">
+        <p class="skin-card__text"><span>BFN производит каждое средство специально для вас, чтобы сохранить продукцию свежей, а значит максимально полезной для кожи.</span></p>
+        <button class="skin-card__toggle" type="button" aria-expanded="false" aria-label="Подробнее">
+          <img src="assets/img/icon-plus.svg" width="101" height="101" alt="">
+        </button>
+      </article>
+
+      <div class="skin__leaves" aria-hidden="true">
+        <div class="leaf" style="--x: 80; --y: 115; --w: 261; --h: 152; --depth: 0.6; --float: 7s"><img src="assets/img/leaf-1.png" alt=""></div>
+        <div class="leaf" style="--x: 270; --y: 130; --w: 196; --h: 180; --depth: 1; --float: 9s"><img src="assets/img/leaf-2.png" alt=""></div>
+        <div class="leaf" style="--x: 1585; --y: 600; --w: 272; --h: 219; --depth: 0.8; --float: 8s"><img src="assets/img/leaf-3.png" alt=""></div>
+        <div class="leaf" style="--x: 1520; --y: 1275; --w: 351; --h: 234; --depth: 0.5; --float: 10s"><img src="assets/img/leaf-4.png" alt=""></div>
+        <div class="leaf" style="--x: 1365; --y: 1495; --w: 377; --h: 269; --depth: 1.2; --float: 8.5s"><img src="assets/img/leaf-5.png" alt=""></div>
+        <div class="leaf" style="--x: 1715; --y: 1530; --w: 149; --h: 280; --depth: 0.9; --float: 7.5s"><img src="assets/img/leaf-6.png" alt=""></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

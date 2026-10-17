@@ -1,0 +1,770 @@
+@font-face {
+  font-family: "MADE TheArtist Script";
+  src: url("../assets/fonts/MADE TheArtist Script PERSONAL USE.woff2") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../assets/fonts/200388358b398524-s.p.woff2) format("woff2");
+  unicode-range: u+0460-052f,u+1c80-1c88,u+20b4,u+2de0-2dff,u+a640-a69f,u+fe2e-fe2f
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../assets/fonts/34900c74a84112b6-s.p.woff2) format("woff2");
+  unicode-range: u+0301,u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../assets/fonts/10dadb2e82d03733-s.woff2) format("woff2");
+  unicode-range: u+0102-0103,u+0110-0111,u+0128-0129,u+0168-0169,u+01a0-01a1,u+01af-01b0,u+0300-0301,u+0303-0304,u+0308-0309,u+0323,u+0329,u+1ea0-1ef9,u+20ab
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../assets/fonts/5f2068c3133468f5-s.p.woff2) format("woff2");
+  unicode-range: u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../assets/fonts/9bf67a161a796382-s.p.woff2) format("woff2");
+  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../assets/fonts/200388358b398524-s.p.woff2) format("woff2");
+  unicode-range: u+0460-052f,u+1c80-1c88,u+20b4,u+2de0-2dff,u+a640-a69f,u+fe2e-fe2f
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../assets/fonts/34900c74a84112b6-s.p.woff2) format("woff2");
+  unicode-range: u+0301,u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../assets/fonts/10dadb2e82d03733-s.woff2) format("woff2");
+  unicode-range: u+0102-0103,u+0110-0111,u+0128-0129,u+0168-0169,u+01a0-01a1,u+01af-01b0,u+0300-0301,u+0303-0304,u+0308-0309,u+0323,u+0329,u+1ea0-1ef9,u+20ab
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../assets/fonts/5f2068c3133468f5-s.p.woff2) format("woff2");
+  unicode-range: u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../assets/fonts/9bf67a161a796382-s.p.woff2) format("woff2");
+  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/200388358b398524-s.p.woff2) format("woff2");
+  unicode-range: u+0460-052f,u+1c80-1c88,u+20b4,u+2de0-2dff,u+a640-a69f,u+fe2e-fe2f
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/34900c74a84112b6-s.p.woff2) format("woff2");
+  unicode-range: u+0301,u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/10dadb2e82d03733-s.woff2) format("woff2");
+  unicode-range: u+0102-0103,u+0110-0111,u+0128-0129,u+0168-0169,u+01a0-01a1,u+01af-01b0,u+0300-0301,u+0303-0304,u+0308-0309,u+0323,u+0329,u+1ea0-1ef9,u+20ab
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/5f2068c3133468f5-s.p.woff2) format("woff2");
+  unicode-range: u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff
+}
+
+@font-face {
+  font-family: __Raleway_7693b0;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../assets/fonts/9bf67a161a796382-s.p.woff2) format("woff2");
+  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
+}
+:root {
+  /* Макет нарисован на ширину 1920px: 1 единица = 1px макета */
+  --u: calc(100vw / 1920);
+
+  --color-gold: #cb9e76;
+  --color-dark: #2f3338;
+  --color-light: #fefdfc;
+  --color-white: #fff;
+
+  --font-main: "__Raleway_7693b0", sans-serif;
+  --font-script: "MADE TheArtist Script", cursive;
+
+  --ease-menu: cubic-bezier(0.74, 0, 0.24, 0.99);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  font-feature-settings: "lnum" 1, "pnum" 1;
+  color: var(--color-dark);
+  background: var(--color-light);
+  -webkit-font-smoothing: antialiased;
+}
+
+body.is-menu-open {
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+main {
+  overflow-x: clip;
+}
+
+/* ---------- Шапка ---------- */
+
+.header {
+  position: absolute;
+  top: calc(19 * var(--u));
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(92 * var(--u));
+  padding: 0 calc(160 * var(--u));
+  font-size: calc(21 * var(--u));
+  line-height: normal;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.header__left,
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__left {
+  gap: calc(60 * var(--u));
+}
+
+.header__right {
+  gap: calc(24 * var(--u));
+}
+
+.header__menu-btn {
+  display: flex;
+  align-items: center;
+  gap: calc(12 * var(--u));
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+.header__menu-btn img {
+  width: calc(25 * var(--u));
+  height: auto;
+}
+
+.header__menu-btn--active {
+  color: var(--color-gold);
+}
+
+.header__link,
+.header__phone,
+.header__current {
+  transition: color 0.3s;
+}
+
+.header__phone {
+  margin-right: calc(3 * var(--u));
+  letter-spacing: 0.02em;
+}
+
+.header__menu-btn:hover,
+.header__link:hover,
+.header__phone:hover {
+  color: var(--color-gold);
+}
+
+.header__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(37 * var(--u));
+  height: calc(32 * var(--u));
+  transition: opacity 0.3s;
+}
+
+.header__icon img {
+  width: auto;
+  height: 100%;
+}
+
+.header__icon:hover {
+  opacity: 0.7;
+}
+
+.header__logo {
+  position: absolute;
+  top: 0;
+  left: calc(893 * var(--u));
+  width: calc(135 * var(--u));
+  height: calc(92 * var(--u));
+  overflow: hidden;
+}
+
+.header__logo img {
+  position: absolute;
+  top: -47.98%;
+  left: -19.7%;
+  width: 136.36%;
+  height: 200%;
+}
+
+.header__current {
+  position: absolute;
+  top: 50%;
+  left: calc(954 * var(--u));
+  transform: translateY(-50%);
+}
+
+body > .header {
+  transition: opacity 0.8s var(--ease-menu);
+}
+
+body.is-menu-open > .header {
+  opacity: 0;
+}
+
+.header--dark {
+  color: var(--color-dark);
+}
+
+.header--dark .header__menu-btn--active,
+.header--dark .header__current:hover {
+  color: var(--color-gold);
+}
+
+/* ---------- Первый экран ---------- */
+
+.hero {
+  position: relative;
+  height: calc(940 * var(--u));
+  overflow: hidden;
+  color: var(--color-white);
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  /* background: rgba(47, 51, 56, 0.5); */
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.hero__title,
+.hero__text,
+.hero__play {
+  position: absolute;
+  z-index: 1;
+}
+
+.hero__title {
+  inset: 0;
+  font-weight: 400;
+  pointer-events: none;
+}
+
+.hero__script {
+  position: absolute;
+  top: calc(256 * var(--u));
+  left: calc(160 * var(--u));
+  font-family: var(--font-script);
+  font-size: calc(315 * var(--u));
+  line-height: 1;
+  white-space: nowrap;
+  color: var(--color-gold);
+}
+
+.hero__nature {
+  position: absolute;
+  top: calc(469 * var(--u));
+  right: calc(160 * var(--u));
+  font-size: calc(210 * var(--u));
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--color-gold);
+}
+
+.hero__text {
+  top: calc(613 * var(--u));
+  left: calc(160 * var(--u));
+  font-size: calc(21 * var(--u));
+  line-height: 1.3;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.hero__play {
+  top: calc(809 * var(--u));
+  left: calc(920 * var(--u));
+  width: calc(80 * var(--u));
+  height: calc(80 * var(--u));
+  border-radius: 50%;
+}
+
+.hero__play img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s;
+}
+
+.hero__play:hover img {
+  transform: scale(1.1);
+}
+
+/* ---------- Меню ---------- */
+
+.menu {
+  --menu-skew: calc(280 * var(--u));
+
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  visibility: hidden;
+}
+
+.menu.is-open,
+.menu.is-closing {
+  visibility: visible;
+}
+
+.menu__sheet {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  clip-path: polygon(-100% 0, 0 0, calc(var(--menu-skew) * -1) 100%, calc(-100% - var(--menu-skew)) 100%);
+}
+
+.menu__sheet > * {
+  pointer-events: auto;
+}
+
+.menu.is-open .menu__sheet {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  transition: clip-path 1.3s var(--ease-menu);
+}
+
+.menu.is-closing .menu__sheet {
+  clip-path: polygon(calc(-100% - var(--menu-skew)) 0, calc(var(--menu-skew) * -1) 0, 0 100%, -100% 100%);
+  transition: clip-path 0.8s var(--ease-menu);
+}
+
+.menu__panel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: calc(1210 * var(--u));
+  background: var(--color-light);
+}
+
+.menu__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(203, 158, 118, 0.5);
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.8s var(--ease-menu);
+}
+
+.menu.is-open .menu__backdrop {
+  opacity: 1;
+  transition-duration: 1.3s;
+}
+
+.menu__nav {
+  position: absolute;
+  inset: 0;
+}
+
+.menu__link {
+  position: absolute;
+  top: calc(var(--y) * var(--u));
+  left: calc(var(--x) * var(--u));
+  font-size: calc(64 * var(--u));
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--color-dark);
+  transition: color 0.3s, transform 0.4s cubic-bezier(0.25, 0.74, 0.22, 0.99);
+}
+
+.menu__link--accent,
+.menu__link:hover {
+  color: var(--color-gold);
+}
+
+.menu__link:hover {
+  transform: translateX(calc(30 * var(--u)));
+}
+
+.menu__script {
+  position: absolute;
+  font-family: var(--font-script);
+  font-size: calc(100 * var(--u));
+  line-height: normal;
+  white-space: nowrap;
+  color: var(--color-gold);
+  pointer-events: none;
+}
+
+.menu__script--about {
+  top: calc(462 * var(--u));
+  left: calc(350 * var(--u));
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.menu__script--blog {
+  top: calc(588 * var(--u));
+  left: calc(673 * var(--u));
+}
+
+.menu__close {
+  position: absolute;
+  top: calc(185 * var(--u));
+  left: calc(1067 * var(--u));
+  width: calc(287 * var(--u));
+  height: calc(287 * var(--u));
+  border-radius: 50%;
+}
+
+.menu__close img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s var(--ease-menu);
+}
+
+.menu__close:hover img {
+  transform: rotate(90deg);
+}
+
+/* ---------- Блок «Впервые косметика повторяет структуру кожи» ---------- */
+
+.skin {
+  position: relative;
+  height: calc(1654 * var(--u));
+}
+
+.skin__title {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  margin: 0;
+  font-weight: 400;
+  pointer-events: none;
+}
+
+.skin__script {
+  position: absolute;
+  top: calc(325 * var(--u));
+  left: calc(428 * var(--u));
+  font-family: var(--font-script);
+  font-size: calc(100 * var(--u));
+  line-height: normal;
+  white-space: nowrap;
+  color: var(--color-gold);
+}
+
+.skin__line {
+  position: absolute;
+  top: calc(var(--y) * var(--u));
+  left: calc(var(--x) * var(--u));
+  font-size: calc(140 * var(--u));
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--color-dark);
+}
+
+.skin__line--outline {
+  z-index: 1;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--color-white);
+  pointer-events: none;
+}
+
+.skin-card {
+  position: absolute;
+  top: calc(var(--y) * var(--u));
+  left: calc(var(--x) * var(--u));
+  z-index: 2;
+  width: calc(423 * var(--u));
+  height: calc(423 * var(--u));
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.skin-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(47, 51, 56, 0.2);
+  transition: opacity 0.6s;
+}
+
+.skin-card__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.skin-card__img--mask {
+  left: -35.48%;
+  width: 150.06%;
+  object-fit: fill;
+}
+
+.skin-card:hover .skin-card__img {
+  transform: scale(1.05);
+}
+
+.skin-card__text {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  padding: 0 calc(38 * var(--u)) 0 calc(45 * var(--u));
+  font-size: calc(21 * var(--u));
+  line-height: 1.4;
+  color: var(--color-white);
+  background: rgba(47, 51, 56, 0.7);
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+
+.skin-card__text span {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.6s;
+}
+
+.skin-card__toggle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  width: calc(101 * var(--u));
+  height: calc(101 * var(--u));
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.4s, transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.skin-card__toggle img {
+  width: 100%;
+  height: 100%;
+}
+
+.skin-card:hover .skin-card__toggle {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.skin-card.is-open::after {
+  opacity: 0;
+}
+
+.skin-card.is-open .skin-card__text {
+  opacity: 1;
+}
+
+.skin-card.is-open .skin-card__text span {
+  transform: none;
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+.skin-card.is-open .skin-card__toggle {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.6) rotate(45deg);
+}
+
+.skin__leaves {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.leaf {
+  position: absolute;
+  top: calc(var(--y) * var(--u));
+  left: calc(var(--x) * var(--u));
+  width: calc(var(--w) * var(--u));
+  height: calc(var(--h) * var(--u));
+  will-change: transform;
+}
+
+.leaf img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: leaf-float var(--float, 8s) ease-in-out infinite alternate;
+}
+
+@keyframes leaf-float {
+  from {
+    transform: translateY(-12px) rotate(-4deg);
+  }
+
+  to {
+    transform: translateY(12px) rotate(4deg);
+  }
+}
+
+/* ---------- Анимация появления: fade in up, 2s, 30px ---------- */
+
+.fade-in-up,
+.reveal.is-visible {
+  opacity: 0;
+  animation: fade-in-up 2s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0s) forwards;
+}
+
+.reveal {
+  opacity: 0;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in-up,
+  .reveal,
+  .reveal.is-visible {
+    opacity: 1;
+    animation: none;
+  }
+
+  .leaf img {
+    animation: none;
+  }
+
+  .menu *,
+  .menu {
+    /* не 0s: иначе не сработает transitionend, снимающий .is-closing */
+    transition-duration: 0.01s !important;
+    transition-delay: 0s !important;
+  }
+}

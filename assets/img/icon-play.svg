@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 4">
+<path id="Ellipse 8" d="M79.5 40C79.5 61.8152 61.8152 79.5 40 79.5C18.1848 79.5 0.5 61.8152 0.5 40C0.5 18.1848 18.1848 0.5 40 0.5C61.8152 0.5 79.5 18.1848 79.5 40Z" stroke="#CB9E76"/>
+<g id="Polygon 1">
+<path d="M50 40L36.5 47.7942L36.5 32.2058L50 40Z" fill="#CB9E76"/>
+<mask id="stroke0_0_4" fill="white">
+<path d="M50 40L36.5 47.7942L36.5 32.2058L50 40Z"/>
+</mask>
+<path d="M50 40L36.5 47.7942L36.5 32.2058L50 40Z" stroke-width="2" stroke="#CB9E76" mask="url(#stroke0_0_4)"/>
+</g>
+</g>
+</svg>
