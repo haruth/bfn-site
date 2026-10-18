@@ -3,143 +3,82 @@
   src: url("../assets/fonts/MADE TheArtist Script PERSONAL USE.woff2") format("opentype");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  /* font-display: swap; */
 }
 
+/* Raleway 4.026 (Fontsource): Light 300 и Regular 400, по алфавитам */
 @font-face {
-  font-family: __Raleway_7693b0;
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url(../assets/fonts/200388358b398524-s.p.woff2) format("woff2");
-  unicode-range: u+0460-052f,u+1c80-1c88,u+20b4,u+2de0-2dff,u+a640-a69f,u+fe2e-fe2f
-}
-
-@font-face {
-  font-family: __Raleway_7693b0;
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url(../assets/fonts/34900c74a84112b6-s.p.woff2) format("woff2");
-  unicode-range: u+0301,u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116
-}
-
-@font-face {
-  font-family: __Raleway_7693b0;
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url(../assets/fonts/10dadb2e82d03733-s.woff2) format("woff2");
-  unicode-range: u+0102-0103,u+0110-0111,u+0128-0129,u+0168-0169,u+01a0-01a1,u+01af-01b0,u+0300-0301,u+0303-0304,u+0308-0309,u+0323,u+0329,u+1ea0-1ef9,u+20ab
-}
-
-@font-face {
-  font-family: __Raleway_7693b0;
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url(../assets/fonts/5f2068c3133468f5-s.p.woff2) format("woff2");
-  unicode-range: u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff
-}
-
-@font-face {
-  font-family: __Raleway_7693b0;
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url(../assets/fonts/9bf67a161a796382-s.p.woff2) format("woff2");
-  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
-}
-
-@font-face {
-  font-family: __Raleway_7693b0;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(../assets/fonts/200388358b398524-s.p.woff2) format("woff2");
-  unicode-range: u+0460-052f,u+1c80-1c88,u+20b4,u+2de0-2dff,u+a640-a69f,u+fe2e-fe2f
+  src: url("../assets/fonts/Raleway/static/raleway-cyrillic-ext-300-normal.woff2") format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 @font-face {
-  font-family: __Raleway_7693b0;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(../assets/fonts/34900c74a84112b6-s.p.woff2) format("woff2");
-  unicode-range: u+0301,u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116
+  src: url("../assets/fonts/Raleway/static/raleway-cyrillic-300-normal.woff2") format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 @font-face {
-  font-family: __Raleway_7693b0;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(../assets/fonts/10dadb2e82d03733-s.woff2) format("woff2");
-  unicode-range: u+0102-0103,u+0110-0111,u+0128-0129,u+0168-0169,u+01a0-01a1,u+01af-01b0,u+0300-0301,u+0303-0304,u+0308-0309,u+0323,u+0329,u+1ea0-1ef9,u+20ab
+  src: url("../assets/fonts/Raleway/static/raleway-latin-ext-300-normal.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 @font-face {
-  font-family: __Raleway_7693b0;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(../assets/fonts/5f2068c3133468f5-s.p.woff2) format("woff2");
-  unicode-range: u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff
+  src: url("../assets/fonts/Raleway/static/raleway-latin-300-normal.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-  font-family: __Raleway_7693b0;
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url(../assets/fonts/9bf67a161a796382-s.p.woff2) format("woff2");
-  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
-}
-
-@font-face {
-  font-family: __Raleway_7693b0;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../assets/fonts/200388358b398524-s.p.woff2) format("woff2");
-  unicode-range: u+0460-052f,u+1c80-1c88,u+20b4,u+2de0-2dff,u+a640-a69f,u+fe2e-fe2f
+  src: url("../assets/fonts/Raleway/static/raleway-cyrillic-ext-400-normal.woff2") format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 @font-face {
-  font-family: __Raleway_7693b0;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../assets/fonts/34900c74a84112b6-s.p.woff2) format("woff2");
-  unicode-range: u+0301,u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116
+  src: url("../assets/fonts/Raleway/static/raleway-cyrillic-400-normal.woff2") format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 @font-face {
-  font-family: __Raleway_7693b0;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../assets/fonts/10dadb2e82d03733-s.woff2) format("woff2");
-  unicode-range: u+0102-0103,u+0110-0111,u+0128-0129,u+0168-0169,u+01a0-01a1,u+01af-01b0,u+0300-0301,u+0303-0304,u+0308-0309,u+0323,u+0329,u+1ea0-1ef9,u+20ab
+  src: url("../assets/fonts/Raleway/static/raleway-latin-ext-400-normal.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 @font-face {
-  font-family: __Raleway_7693b0;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../assets/fonts/5f2068c3133468f5-s.p.woff2) format("woff2");
-  unicode-range: u+0100-02af,u+0304,u+0308,u+0329,u+1e00-1e9f,u+1ef2-1eff,u+2020,u+20a0-20ab,u+20ad-20c0,u+2113,u+2c60-2c7f,u+a720-a7ff
+  src: url("../assets/fonts/Raleway/static/raleway-latin-400-normal.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-@font-face {
-  font-family: __Raleway_7693b0;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../assets/fonts/9bf67a161a796382-s.p.woff2) format("woff2");
-  unicode-range: u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+0304,u+0308,u+0329,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd
-}
 :root {
   /* Макет нарисован на ширину 1920px: 1 единица = 1px макета */
   --u: calc(100vw / 1920);
@@ -149,7 +88,7 @@
   --color-light: #fefdfc;
   --color-white: #fff;
 
-  --font-main: "__Raleway_7693b0", sans-serif;
+  --font-main: "Raleway", sans-serif;
   --font-script: "MADE TheArtist Script", cursive;
 
   --ease-menu: cubic-bezier(0.74, 0, 0.24, 0.99);
@@ -165,6 +104,19 @@ html,
 body {
   margin: 0;
   padding: 0;
+}
+
+html::-webkit-scrollbar {
+  width: 7px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: var(--color-white);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--color-dark);
+  border-radius: 4px;
 }
 
 body {
@@ -216,12 +168,8 @@ main {
   left: 0;
   right: 0;
   z-index: 10;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   height: calc(92 * var(--u));
-  padding: 0 calc(160 * var(--u));
-  font-size: calc(21 * var(--u));
+  font-size: round(calc(21 * var(--u)), 1px);
   line-height: normal;
   text-transform: uppercase;
   color: var(--color-white);
@@ -229,21 +177,20 @@ main {
 
 .header__left,
 .header__right {
-  display: flex;
-  align-items: center;
+  display: contents;
 }
 
-.header__left {
-  gap: calc(60 * var(--u));
-}
-
-.header__right {
-  gap: calc(24 * var(--u));
+.header__menu-btn,
+.header__link,
+.header__phone {
+  position: absolute;
+  top: calc(35 * var(--u));
 }
 
 .header__menu-btn {
+  left: calc(160 * var(--u));
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: calc(12 * var(--u));
   text-transform: uppercase;
   transition: color 0.3s;
@@ -251,7 +198,12 @@ main {
 
 .header__menu-btn img {
   width: calc(25 * var(--u));
-  height: auto;
+  height: calc(15 * var(--u));
+  margin-top: calc(5.5 * var(--u));
+}
+
+.header__link {
+  left: calc(325 * var(--u));
 }
 
 .header__menu-btn--active {
@@ -265,7 +217,7 @@ main {
 }
 
 .header__phone {
-  margin-right: calc(3 * var(--u));
+  left: calc(1378 * var(--u));
   letter-spacing: 0.02em;
 }
 
@@ -276,16 +228,16 @@ main {
 }
 
 .header__icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: calc(37 * var(--u));
-  height: calc(32 * var(--u));
+  position: absolute;
+  top: calc(var(--y) * var(--u));
+  left: calc(var(--x) * var(--u));
+  width: calc(var(--w) * var(--u));
+  height: calc(var(--h) * var(--u));
   transition: opacity 0.3s;
 }
 
 .header__icon img {
-  width: auto;
+  width: 100%;
   height: 100%;
 }
 
@@ -312,9 +264,8 @@ main {
 
 .header__current {
   position: absolute;
-  top: 50%;
+  top: calc(35 * var(--u));
   left: calc(954 * var(--u));
-  transform: translateY(-50%);
 }
 
 body > .header {
@@ -326,6 +277,7 @@ body.is-menu-open > .header {
 }
 
 .header--dark {
+  top: calc(17 * var(--u));
   color: var(--color-dark);
 }
 
@@ -344,16 +296,17 @@ body.is-menu-open > .header {
 }
 
 .hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
+  /* content: ""; */
+  /* position: absolute; */
+  /* inset: 0; */
   /* background: rgba(47, 51, 56, 0.5); */
 }
 
 .hero__bg {
   position: absolute;
-  inset: 0;
-  width: 100%;
+  top: 0;
+  left: 0;
+  width: calc(1920 * var(--u));
   height: 100%;
   object-fit: fill;
 }
@@ -376,7 +329,7 @@ body.is-menu-open > .header {
   top: calc(256 * var(--u));
   left: calc(160 * var(--u));
   font-family: var(--font-script);
-  font-size: calc(315 * var(--u));
+  font-size: round(calc(315 * var(--u)), 1px);
   line-height: 1;
   white-space: nowrap;
   color: var(--color-gold);
@@ -385,8 +338,10 @@ body.is-menu-open > .header {
 .hero__nature {
   position: absolute;
   top: calc(469 * var(--u));
-  right: calc(160 * var(--u));
-  font-size: calc(210 * var(--u));
+  left: calc(914 * var(--u));
+  width: calc(846 * var(--u));
+  text-align: right;
+  font-size: round(calc(210 * var(--u)), 1px);
   font-weight: 300;
   line-height: normal;
   text-transform: uppercase;
@@ -397,7 +352,7 @@ body.is-menu-open > .header {
 .hero__text {
   top: calc(613 * var(--u));
   left: calc(160 * var(--u));
-  font-size: calc(21 * var(--u));
+  font-size: round(calc(21 * var(--u)), 1px);
   line-height: 1.3;
   text-transform: uppercase;
   white-space: nowrap;
@@ -490,7 +445,7 @@ body.is-menu-open > .header {
   position: absolute;
   top: calc(var(--y) * var(--u));
   left: calc(var(--x) * var(--u));
-  font-size: calc(64 * var(--u));
+  font-size: round(calc(64 * var(--u)), 1px);
   font-weight: 300;
   line-height: normal;
   text-transform: uppercase;
@@ -511,7 +466,7 @@ body.is-menu-open > .header {
 .menu__script {
   position: absolute;
   font-family: var(--font-script);
-  font-size: calc(100 * var(--u));
+  font-size: round(calc(100 * var(--u)), 1px);
   line-height: normal;
   white-space: nowrap;
   color: var(--color-gold);
@@ -569,7 +524,7 @@ body.is-menu-open > .header {
   top: calc(325 * var(--u));
   left: calc(428 * var(--u));
   font-family: var(--font-script);
-  font-size: calc(100 * var(--u));
+  font-size: round(calc(100 * var(--u)), 1px);
   line-height: normal;
   white-space: nowrap;
   color: var(--color-gold);
@@ -579,7 +534,7 @@ body.is-menu-open > .header {
   position: absolute;
   top: calc(var(--y) * var(--u));
   left: calc(var(--x) * var(--u));
-  font-size: calc(140 * var(--u));
+  font-size: round(calc(140 * var(--u)), 1px);
   font-weight: 300;
   line-height: normal;
   text-transform: uppercase;
@@ -639,7 +594,7 @@ body.is-menu-open > .header {
   display: flex;
   align-items: center;
   padding: 0 calc(38 * var(--u)) 0 calc(45 * var(--u));
-  font-size: calc(21 * var(--u));
+  font-size: round(calc(21 * var(--u)), 1px);
   line-height: 1.4;
   color: var(--color-white);
   background: rgba(47, 51, 56, 0.7);
@@ -744,7 +699,7 @@ body.is-menu-open > .header {
   top: calc(161 * var(--u));
   left: calc(147 * var(--u));
   margin: 0;
-  font-size: calc(140 * var(--u));
+  font-size: round(calc(140 * var(--u)), 1px);
   font-weight: 300;
   line-height: normal;
   text-transform: uppercase;
@@ -795,7 +750,7 @@ body.is-menu-open > .header {
   top: calc(221 * var(--u));
   left: calc(715 * var(--u));
   font-family: var(--font-script);
-  font-size: calc(100 * var(--u));
+  font-size: round(calc(100 * var(--u)), 1px);
   line-height: normal;
   white-space: nowrap;
   color: var(--color-gold);
@@ -805,7 +760,7 @@ body.is-menu-open > .header {
 .cornea__text,
 .cornea__note {
   position: absolute;
-  font-size: calc(21 * var(--u));
+  font-size: round(calc(21 * var(--u)), 1px);
   line-height: 1.4;
 }
 
@@ -832,7 +787,7 @@ body.is-menu-open > .header {
   display: flex;
   align-items: flex-start;
   gap: calc(14.5 * var(--u));
-  font-size: calc(21 * var(--u));
+  font-size: round(calc(21 * var(--u)), 1px);
   font-weight: 300;
   line-height: 1.4;
 }
