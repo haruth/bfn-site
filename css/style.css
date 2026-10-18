@@ -392,6 +392,7 @@ body.is-menu-open > .header {
 
 .hero__title {
   inset: 0;
+  z-index: 11;
   font-weight: 400;
   pointer-events: none;
 }
@@ -405,6 +406,15 @@ body.is-menu-open > .header {
   line-height: 1;
   white-space: nowrap;
   color: var(--color-gold);
+}
+
+/* Отдельный слой: Chrome рисует тонкий рукописный шрифт без ClearType, иначе по краям тёмная кайма.
+   z-index ставит слой поверх соседнего текста: текст, нарисованный поверх слоя, тоже теряет ClearType */
+.hero__script,
+.skin__script,
+.cornea__script {
+  z-index: 1;
+  will-change: transform;
 }
 
 .hero__nature {
@@ -896,6 +906,13 @@ body.is-menu-open > .header {
 
 .reveal {
   opacity: 0;
+}
+
+/* Оставшаяся анимация держит элемент на отдельном слое, и Chrome рисует текст без ClearType */
+.fade-in-up.is-shown,
+.reveal.is-shown {
+  opacity: 1;
+  animation: none;
 }
 
 @keyframes fade-in-up {

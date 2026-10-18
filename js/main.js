@@ -62,6 +62,12 @@
 
   document.querySelectorAll(".reveal").forEach((element) => revealObserver.observe(element));
 
+  document.addEventListener("animationend", (event) => {
+    if (event.animationName === "fade-in-up") {
+      event.target.classList.add("is-shown");
+    }
+  });
+
   document.querySelectorAll(".skin-card").forEach((card) => {
     const toggle = card.querySelector(".skin-card__toggle");
 
