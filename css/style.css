@@ -946,3 +946,18 @@ body.is-menu-open > .header {
     transition-delay: 0s !important;
   }
 }
+
+/* Временное отключение всех анимаций: класс no-motion на <html> */
+.no-motion *,
+.no-motion *::before,
+.no-motion *::after {
+  animation: none !important;
+  /* не 0s: иначе не сработает transitionend, снимающий .is-closing у меню */
+  transition-duration: 0.01s !important;
+  transition-delay: 0s !important;
+}
+
+.no-motion .fade-in-up,
+.no-motion .reveal {
+  opacity: 1;
+}

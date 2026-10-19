@@ -1,7 +1,10 @@
 (function () {
   let lenis = null;
+  const reduceMotion =
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches ||
+    document.documentElement.classList.contains("no-motion");
 
-  if (window.Lenis && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  if (window.Lenis && !reduceMotion) {
     lenis = new Lenis({ duration: 1.2, smoothWheel: true });
 
     const raf = (time) => {
@@ -84,7 +87,7 @@
     scroll: 0,
   }));
 
-  if (leaves.length && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  if (leaves.length && !reduceMotion) {
     const pointer = { x: 0, y: 0 };
     const current = { x: 0, y: 0 };
 
